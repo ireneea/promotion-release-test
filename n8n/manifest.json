@@ -1,9 +1,14 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-26T10:11:57.265Z",
+	"exportedAt": "2026-10-26T10:29:07.400Z",
 	"sourceN8nVersion": "2.45.0",
 	"sourceId": "acd58c937e6e1468d4fd2fa5bea907e64bdd50159a206f6fc70f6bea86bb408c",
 	"workflows": [
+		{
+			"id": "T3aCzifJlmjy3QXg",
+			"name": "Onboarding Flow",
+			"target": "projects/hr-automation-aOL5BR68btv7E70p/workflows/onboarding-flow-T3aCzifJlmjy3QXg"
+		},
 		{
 			"id": "hMRSTUTPdkDtcDt2",
 			"name": "3 Way Match",
@@ -11,6 +16,11 @@
 		}
 	],
 	"projects": [
+		{
+			"id": "aOL5BR68btv7E70p",
+			"name": "HR automation",
+			"target": "projects/hr-automation-aOL5BR68btv7E70p"
+		},
 		{
 			"id": "xveVBgejOrGKTQOK",
 			"name": "Sales Automation",
@@ -45,6 +55,10 @@
 				"usedBy": [
 					{
 						"kind": "workflow",
+						"id": "T3aCzifJlmjy3QXg"
+					},
+					{
+						"kind": "workflow",
 						"id": "hMRSTUTPdkDtcDt2"
 					}
 				]
@@ -53,6 +67,10 @@
 				"type": "n8n-nodes-base.set",
 				"typeVersion": 3.5,
 				"usedBy": [
+					{
+						"kind": "workflow",
+						"id": "T3aCzifJlmjy3QXg"
+					},
 					{
 						"kind": "workflow",
 						"id": "hMRSTUTPdkDtcDt2"
