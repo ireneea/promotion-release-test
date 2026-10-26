@@ -1,13 +1,13 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-26T10:35:56.336Z",
+	"exportedAt": "2026-10-26T10:53:54.950Z",
 	"sourceN8nVersion": "2.45.0",
 	"sourceId": "acd58c937e6e1468d4fd2fa5bea907e64bdd50159a206f6fc70f6bea86bb408c",
 	"workflows": [
 		{
 			"id": "T3aCzifJlmjy3QXg",
 			"name": "Onboarding Flow",
-			"target": "projects/hr-automation-aOL5BR68btv7E70p/workflows/onboarding-flow-T3aCzifJlmjy3QXg"
+			"target": "projects/hr-automation-renamed-aOL5BR68btv7E70p/workflows/onboarding-flow-T3aCzifJlmjy3QXg"
 		},
 		{
 			"id": "hMRSTUTPdkDtcDt2",
@@ -23,8 +23,8 @@
 	"projects": [
 		{
 			"id": "aOL5BR68btv7E70p",
-			"name": "HR automation",
-			"target": "projects/hr-automation-aOL5BR68btv7E70p"
+			"name": "HR automation - Renamed",
+			"target": "projects/hr-automation-renamed-aOL5BR68btv7E70p"
 		},
 		{
 			"id": "xveVBgejOrGKTQOK",
