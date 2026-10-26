@@ -1,0 +1,74 @@
+{
+	"packageFormatVersion": "1",
+	"exportedAt": "2026-10-26T10:11:57.265Z",
+	"sourceN8nVersion": "2.45.0",
+	"sourceId": "acd58c937e6e1468d4fd2fa5bea907e64bdd50159a206f6fc70f6bea86bb408c",
+	"workflows": [
+		{
+			"id": "hMRSTUTPdkDtcDt2",
+			"name": "3 Way Match",
+			"target": "projects/sales-automation-xveVBgejOrGKTQOK/workflows/3-way-match-hMRSTUTPdkDtcDt2"
+		}
+	],
+	"projects": [
+		{
+			"id": "xveVBgejOrGKTQOK",
+			"name": "Sales Automation",
+			"target": "projects/sales-automation-xveVBgejOrGKTQOK"
+		}
+	],
+	"credentials": [
+		{
+			"id": "MkZrgVk4xyYTRIUB",
+			"name": "Bearer Auth account",
+			"target": "projects/sales-automation-xveVBgejOrGKTQOK/credentials/bearer-auth-account-MkZrgVk4xyYTRIUB"
+		}
+	],
+	"requirements": {
+		"credentials": [
+			{
+				"id": "MkZrgVk4xyYTRIUB",
+				"name": "Bearer Auth account",
+				"type": "httpBearerAuth",
+				"usedBy": [
+					{
+						"kind": "workflow",
+						"id": "hMRSTUTPdkDtcDt2"
+					}
+				]
+			}
+		],
+		"nodeTypes": [
+			{
+				"type": "n8n-nodes-base.manualTrigger",
+				"typeVersion": 1,
+				"usedBy": [
+					{
+						"kind": "workflow",
+						"id": "hMRSTUTPdkDtcDt2"
+					}
+				]
+			},
+			{
+				"type": "n8n-nodes-base.set",
+				"typeVersion": 3.5,
+				"usedBy": [
+					{
+						"kind": "workflow",
+						"id": "hMRSTUTPdkDtcDt2"
+					}
+				]
+			},
+			{
+				"type": "n8n-nodes-base.httpRequest",
+				"typeVersion": 4.5,
+				"usedBy": [
+					{
+						"kind": "workflow",
+						"id": "hMRSTUTPdkDtcDt2"
+					}
+				]
+			}
+		]
+	}
+}
