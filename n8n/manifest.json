@@ -1,6 +1,6 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-26T10:29:07.400Z",
+	"exportedAt": "2026-10-26T10:35:56.336Z",
 	"sourceN8nVersion": "2.45.0",
 	"sourceId": "acd58c937e6e1468d4fd2fa5bea907e64bdd50159a206f6fc70f6bea86bb408c",
 	"workflows": [
@@ -13,6 +13,11 @@
 			"id": "hMRSTUTPdkDtcDt2",
 			"name": "3 Way Match",
 			"target": "projects/sales-automation-xveVBgejOrGKTQOK/workflows/3-way-match-hMRSTUTPdkDtcDt2"
+		},
+		{
+			"id": "OsvcZdRjSfCbOye9",
+			"name": "Invoice Approval",
+			"target": "projects/sales-automation-xveVBgejOrGKTQOK/workflows/invoice-approval-OsvcZdRjSfCbOye9"
 		}
 	],
 	"projects": [
@@ -55,6 +60,10 @@
 				"usedBy": [
 					{
 						"kind": "workflow",
+						"id": "OsvcZdRjSfCbOye9"
+					},
+					{
+						"kind": "workflow",
 						"id": "T3aCzifJlmjy3QXg"
 					},
 					{
@@ -67,6 +76,10 @@
 				"type": "n8n-nodes-base.set",
 				"typeVersion": 3.5,
 				"usedBy": [
+					{
+						"kind": "workflow",
+						"id": "OsvcZdRjSfCbOye9"
+					},
 					{
 						"kind": "workflow",
 						"id": "T3aCzifJlmjy3QXg"
